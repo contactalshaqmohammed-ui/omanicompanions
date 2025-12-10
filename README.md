@@ -221,7 +221,7 @@ function renderCharacters() {
 
 function showDetails(i) {
  const p = sahaba[i];
- detailsBox.innerHTML = `<h3>${p.name} رضي الله عنه/عنها</h3><p>${p.info}</p>`;
+ detailsBox.innerHTML = `<h3>${p.name} رضي الله عنهم</h3><p>${p.info}</p>`;
  detailsBox.style.display = 'block';
  detailsBox.scrollIntoView({ behavior: 'smooth' });
 }
